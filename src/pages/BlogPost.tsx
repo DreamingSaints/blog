@@ -3,7 +3,6 @@ import rehypeRaw from "rehype-raw";
 import { Link, useParams } from "react-router-dom";
 import CodeBlock from "../components/CodeBlock";
 import GitHubEditButton from "../components/GitHubEditButton";
-import ShareButton from "../components/ShareButton";
 import config from "../config";
 import { usePostByFilename } from "../helpers/usePosts";
 import { replaceImageTags, replaceYouTubeUrls } from "../helpers/contentTransform";
@@ -11,12 +10,7 @@ import { PostParams } from "../types";
 
 const BlogPost = () => {
   const { filename } = useParams<PostParams>();
-  const {
-    content,
-    title: postTitle,
-    loading,
-    error,
-  } = usePostByFilename(filename);
+  const { content, loading, error } = usePostByFilename(filename);
 
   if (loading) {
     return (
@@ -57,9 +51,6 @@ const BlogPost = () => {
         >
           {replaceYouTubeUrls(replaceImageTags(content))}
         </ReactMarkdown>
-        <div className="post-actions">
-          <ShareButton title={postTitle} url={window.location.href} />
-        </div>
       </article>
     </>
   );
