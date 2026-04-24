@@ -21,6 +21,7 @@ jobs:
     uses: StCost/blog/.github/workflows/deploy-from-posts.yml@main
     with:
       engine_repository: StCost/blog
+      google_site_verification: "7JopGsGbNueXoc9ZJlGRP219qtxwHVTk11TysHWcQgY"
       # posts_subpath: content/posts
       # site_title: "My notebook"
       # site_tagline: "Short description for meta / empty excerpts"
