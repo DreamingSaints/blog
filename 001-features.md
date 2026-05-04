@@ -32,3 +32,6 @@
 - Discord and Steam rich presence; Steam friends join UI
 - Cloth collider provider/consumer for cloth–world collision
 - Dropped items stack with similar items nearby
+- Painting on objects
+- Taking small creatures as item
+- Friendly NPC can be companion and follow you
