@@ -1,5 +1,7 @@
 # Game design
 
+TODO: refactor doc into list of facts, not just thoughts around how world works. Current version sounds vague
+
 An immersive-sim FPS co-op sandbox on a **super-magnetic, metal-rich planet** where civilization grows industrially and fades away already. You survive by **driving a home-bunker cargo truckvehicle** across an infinite-feeling world, looting and improvising with real physics. The signature is the **isolated vehicle interior**: while the vehicle is moving, players can still freely interact with items inside (storage, crafting, chaos) as if it’s a moving room.
 
 **Drive a moving home-bunker across a magnetic wasteland and survive by turning loot, physics, and curiosity into power.**
