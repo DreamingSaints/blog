@@ -9,6 +9,8 @@
 - ! Voxel terrain, allowing add/remove terrain and mix materials
 - ! Persistent world (entities, health, position, opened doors, destroyed objects, dead enemies, terrain operations, etc)
 - ! Boxes to store other items physically (throw item inside box, close box, take box with you). No UI!
+- ! Infinite forever saved painting on entities. Temporary* painting on large static world geometry (*planned to make it infinite too)
+- ! Drag physical object in world space to relocate it. Weight affects how easy to move small or large entities
 
 ### Other Features
 
@@ -32,6 +34,5 @@
 - Discord and Steam rich presence; Steam friends join UI
 - Cloth collider provider/consumer for cloth–world collision
 - Dropped items stack with similar items nearby
-- Painting on objects
 - Taking small creatures as item
 - Friendly NPC can be companion and follow you
