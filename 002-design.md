@@ -1,4 +1,4 @@
-# Game design WIP
+# Game design
 
 - Super-Magnetic planet named Emporia
 - Majority of super tech based on tesla-punk design
