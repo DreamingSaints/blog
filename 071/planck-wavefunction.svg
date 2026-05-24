@@ -19,6 +19,6 @@
   <path d="M78 98 Q140 88 200 98 T322 98" fill="none" stroke="#ffab70" stroke-width="1.5" opacity="0.9"/>
   <path d="M78 98 Q140 108 200 98 T322 98" fill="none" stroke="#ff8c42" stroke-width="0.8" opacity="0.4"/>
   <circle cx="352" cy="98" r="4" fill="#3fb950" opacity="0.8"/>
-  <text x="200" y="130" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,Cascadia Mono,Consolas,Segoe UI Mono,monospace" font-size="8">zero scattering cross-section, bypass c limit</text>
+  <text x="200" y="130" text-anchor="middle" fill="#8b949e" font-family="ui-monospace,Cascadia Mono,Consolas,Segoe UI Mono,monospace" font-size="8">vanishing cross-section, bypass c limit</text>
   <text x="200" y="155" text-anchor="middle" fill="#ffab70" font-family="ui-monospace,Cascadia Mono,Consolas,Segoe UI Mono,monospace" font-size="8">solid matter to Planck-scale probability packet</text>
 </svg>
