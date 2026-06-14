@@ -1,5 +1,8 @@
 # Implemented COLLAPSE MACHINE Game Features
 
+Outdated: see changelog instead: [https://stcost.github.io/SolidOS/?window=changelog-content
+](https://stcost.github.io/SolidOS/?window=changelog-content)
+
 ### Major Features
 
 - ! Infinite* world generation. *(40mil km)
