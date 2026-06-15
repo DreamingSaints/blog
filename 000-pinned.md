@@ -9,4 +9,7 @@
   <a href="mailto:dreamingsaints@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="20" height="20" /></a>
   <a href="https://stcost.github.io/SolidOS/?window=changelog-content" title="Implemented Features"><img src="https://cdn.simpleicons.org/rss/FF6600" alt="Implemented Features" width="20" height="20" /></a>
   <a href="https://dreamingsaints.github.io/blog/game-design" title="Design Guide Lines"><img src="https://cdn.simpleicons.org/rss/FF6600" alt="Design Guide Lines" width="20" height="20" /></a>
+  <a href="https://t.me/collapsemachine" title="Telegram"><img src="https://cdn.simpleicons.org/telegram" alt="Telegram" width="20" height="20" /></a>
+  <a href="https://www.facebook.com/groups/2216398175431222" title="Facebook"><img src="https://cdn.simpleicons.org/facebook" alt="Facebook" width="20" height="20" /></a>
+  <a href="https://bsky.app/profile/collapsemachine.bsky.social" title="Bluesky"><img src="https://cdn.simpleicons.org/bluesky" alt="Bluesky" width="20" height="20" /></a>
 </p>
