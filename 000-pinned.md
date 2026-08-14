@@ -4,21 +4,21 @@
       <a href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE">COLLAPSE MACHINE</a> 💥🚕
       <small class="game-status">(coming)</small>
     </div>
-    <p class="game-desc">a tesla-punk co-op open-world imm-sim sci-fi sandbox</p>
+    <p class="game-desc">a tesla-punk co-op open-world imm-sim fps sandbox</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
       <a href="https://store.steampowered.com/app/4967660/">Ball-Aqua</a> 🔮🌊
       <small class="game-status">(demo 20 Aug 2026)</small>
     </div>
-    <p class="game-desc">a tropical ball-rolling multiplayer + level editor</p>
+    <p class="game-desc">a tropical ball-rolling multiplayer 3D platformer</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
       <a href="https://store.steampowered.com/app/3600250/Whomers_Ate_My_Lawn/">Whomers Ate My Lawn!</a> 👾🥕
       <small class="game-status">(released 6 Apr 2025)</small>
     </div>
-    <p class="game-desc">a cozy 64×64 grid sandbox of digging, eating Whomers</p>
+    <p class="game-desc">a farm of tiny pets digging lawn to find carrots</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
