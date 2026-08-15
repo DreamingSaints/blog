@@ -84,6 +84,7 @@
     <tr>
       <td style="vertical-align: top; padding: 0;">
         <a href="https://discord.com/invite/xQwWSFDC8Y"><img src="https://cdn.simpleicons.org/discord/5865F2" alt="" width="20" height="20" /> Discord</a>
+        <a href="https://www.youtube.com/@DreamingSaints"><img src="https://cdn.simpleicons.org/youtube/FF0000" alt="" width="20" height="20" /> YouTube</a>
         <a href="https://x.com/DreamingSaints"><img src="https://cdn.simpleicons.org/x/FFFFFF" alt="" width="20" height="20" /> X</a>
         <a href="https://www.tiktok.com/@dreamingsaints"><img src="https://cdn.simpleicons.org/tiktok/FFFFFF" alt="" width="20" height="20" /> TikTok</a>
         <a href="https://t.me/dreamingsaints"><img src="https://cdn.simpleicons.org/telegram" alt="" width="20" height="20" /> Telegram</a>
