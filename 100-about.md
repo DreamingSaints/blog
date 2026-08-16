@@ -1,13 +1,122 @@
 # #100 About
 
-<p class="about-kicker">Dreaming Saints team working on games you enjoy</p>
+<div class="about-og-preview" aria-hidden="true">
+<img src="./100-about/dreaming-saints.png" alt="" width="96" height="96" />
+</div>
 
 <style>
-.about-kicker {
-  margin: 0 0 1rem;
-  color: #8b949e;
-  font-size: 1.05em;
-  font-weight: 400;
+.about-og-preview,
+.about-og-preview a.post-image-link {
+  display: none !important;
+}
+.about-hero {
+  margin: 0 0 1.25rem;
+}
+.about-hero a.post-image-link {
+  display: block !important;
+  width: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0;
+  line-height: 0;
+  border: none !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.about-hero img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  object-fit: cover;
+}
+.about-couple {
+  position: relative;
+  overflow: visible;
+}
+.about-couple > #stcost,
+.about-couple > #sttaya {
+  position: relative;
+  overflow: visible;
+}
+.about-couple > #stcost::before,
+.about-couple > #sttaya::before {
+  content: "";
+  position: absolute;
+  top: 64px;
+  left: 100%;
+  width: 16px;
+  height: 1px;
+  background: var(--color-border);
+  transition: background 0.15s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.about-couple > #stcost::after,
+.about-couple > #sttaya::after {
+  content: "";
+  position: absolute;
+  left: calc(100% + 15px);
+  width: 1px;
+  background: var(--color-border);
+  transition: background 0.15s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.about-couple > #stcost::after {
+  top: 64px;
+  height: calc(100% - 64px + 1.25rem);
+}
+.about-couple > #sttaya::after {
+  top: 0;
+  height: 64px;
+}
+.about-engaged {
+  position: relative;
+  height: 0;
+  margin: 0;
+  line-height: 0;
+  font-size: 0;
+  z-index: 2;
+  overflow: visible;
+}
+.about-engaged-gap {
+  position: absolute;
+  left: calc(100% + 16px);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 44px;
+  transform: translate(calc(-50% - 2px), -50%);
+  background: var(--color-bg-secondary);
+}
+.about-engaged svg {
+  display: block;
+  transform: rotate(90deg);
+}
+.about-engaged svg circle,
+.about-engaged svg path {
+  stroke: var(--color-border);
+  transition: stroke 0.15s ease;
+}
+.about-couple:hover > #stcost::before,
+.about-couple:hover > #stcost::after,
+.about-couple:hover > #sttaya::before,
+.about-couple:hover > #sttaya::after {
+  background: var(--color-primary);
+}
+.about-couple:hover .about-engaged svg circle:first-of-type,
+.about-couple:hover .about-engaged svg path {
+  stroke: #ff8000;
+}
+.about-couple:hover .about-engaged svg circle:nth-of-type(2) {
+  stroke: #0abab5;
 }
 .about-person { overflow: visible; }
 .about-person > summary {
@@ -368,9 +477,11 @@ a.fav-chip:hover {
   padding: 4px 5px 5px;
   font-size: 0.72em;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.15;
   overflow: hidden;
-  text-overflow: ellipsis;
   text-shadow: 0 0 4px #000, 0 0 8px #000, 0 1px 2px #000;
   opacity: 0;
   pointer-events: none;
@@ -434,20 +545,144 @@ a.fav-chip:hover {
 .fav-swatch.tiffany { background: #0abab5; }
 .fav-swatch.purple { background: #800080; }
 .fav-swatch.ultramarine { background: #120A8F; }
+.about-studio {
+  position: relative;
+  overflow: visible;
+  margin: 0 0 1.25rem;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+.about-studio a {
+  position: relative;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.about-studio a:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+.about-tip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  z-index: 50;
+  width: 272px;
+  pointer-events: none;
+  background: var(--color-bg-secondary, #161b22);
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  color: #c9d1d9;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.35;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+}
+.about-studio a:hover > .about-tip {
+  display: block;
+  color: #c9d1d9;
+  text-decoration: none;
+}
+.about-tip-art {
+  display: block;
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  background: #0d1117 center / cover no-repeat;
+}
+.about-tip-body {
+  display: block;
+  padding: 8px 10px 10px;
+}
+.about-tip-title {
+  display: inline;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.about-tip-date {
+  display: inline;
+  margin: 0 0 0 6px;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: #6e7681;
+}
+.about-tip-desc {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8em;
+  color: #8b949e;
+}
+.about-tip-note {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.75em;
+  font-style: italic;
+  color: #8b949e;
+}
+.about-tip-said {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-style: normal;
+  font-weight: 600;
+  color: #6e7681;
+}
+.about-tip-said::after {
+  content: "";
+  flex: 1 1 auto;
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 0.2em;
+}
+.about-studio small,
+.about-note small {
+  font-size: 0.8em;
+  color: #6e7681;
+  font-weight: 400;
+}
+.about-team-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0 0 8px;
+}
+.about-team-header::after {
+  content: "";
+  flex: 1 1 auto;
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 0.15em;
+}
 </style>
 
+<div class="about-hero">
+<img src="./100-about/studio-name.png" alt="Dreaming Saints" width="724" height="155" />
+</div>
+
+<p class="about-studio">Inspired by <a href="https://store.steampowered.com/app/823500/">BONEWORKS<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/823500/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">BONEWORKS</span><span class="about-tip-date">10 Dec 2019</span><span class="about-tip-desc">BONEWORKS is an Experimental Physics VR Adventure. Use found physics weapons, tools, and objects to fight across dangerous playscapes and mysterious architecture.</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Best VR adventure I experienced. Physical climbing is fun, feels like cheating. Many paths to approach problems. I love entering a room, pushing doors open using gun barrels and then blasting the null bodies. Still the best VR game for me.</span></span></span></a> and VR tech, we gathered a team to make <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/1775350/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">RISING BONEvR</span><span class="about-tip-date">demo 7 Nov 2021</span><span class="about-tip-desc">(First level demo available!) Physics based puzzle about climbing out of deep hell without any legs</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Quite a challenge to implement VR physics similar to BONEWORKS. Learned more math, vectors, matrices. Level design is terrible, physics clunky, but gameplay was fun when it works. My first proper C# game, and fiancee StTaya helped by making her first 3D models in Blender. Some day we'll continue - we learned many new lessons since then.</span></span></span></a> <small>(demo 7 Nov 2021)</small>. Now focused on our dream-game <a href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE">COLLAPSE MACHINE<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/2980830/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">COLLAPSE MACHINE</span><span class="about-tip-date">since Sep 2023</span><span class="about-tip-desc">In COLLAPSE MACHINE - scavenge, raid, and survive a super-magnetic wasteland in co-op PvE. Hoard tesla-punk tech, mine voxel terrain, run a mobile vehicle base through shifting seasons, intercept rivals, and siege their factories</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Initial idea was to freely walk in co-op inside the vehicle cargo hangar, while a friend drives the car over desert dunes. Solved it by hiding static colliders, while visuals render near the car. The camera sees real movement, while physics of internal objects stays stable.</span></span></span></a> <small>(since Sep 2023)</small>. Quick side-projects: <a href="https://store.steampowered.com/app/3600250/Whomers_Ate_My_Lawn/">Whomers Ate My Lawn!<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600250/69ff0311912878d48a0a7cb7523639b51370982b/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">Whomers Ate My Lawn!</span><span class="about-tip-date">released 6 Apr 2025</span><span class="about-tip-desc">Dive into a simple yet charming world where curious Whomers creatures dig, eat, and survive in a compact 64x64 grid. This minimalistic simulation offers a peaceful experience of watching and interacting with small digital beings as they go about their lives</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Inspired by RimWorld, I wanted my own small semi-afk villager-manager. Made small creatures digging the lawn. You as God restore or dig more grass. Grow plants for more carrots. All to grow the population of Whomers. Made in 1 month with MonoGame in C#.</span></span></span></a> <small>(released 6 Apr 2025)</small> and <a href="https://store.steampowered.com/app/4967660/">Ball-Aqua<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967660/b2762559bd37c68c7df2cc04f47b19fb3be7d7ef/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">Ball-Aqua</span><span class="about-tip-date">demo 20 Aug 2026</span><span class="about-tip-desc">Demo Launch on August 20! Roll a physics ball through tropical obstacle courses. Beat the timer, collect bubbles and stars, and chase 100% clears. Play Freeroam solo or co-op, compete in Race, build levels, and share on Steam Workshop.</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>I've seen many ball-rolling games recently. But all of them had terrible movement and platforms - just thin beams. I wanted to speed and jump forward, not short hops on thin platforms. That day I stumbled on the Frutiger Aero water album Alezya - Dream Island (youtube.com/watch?v=3R6beuJQkxM). Such hydrated music inspired me to make a water-themed ball-rolling multiplayer with a level editor and freedom. Spent about a month on a playable version to show as a demo. A few more months to polish and make more levels for the full release.</span></span></span></a> <small>(demo 20 Aug 2026)</small>.</p>
+
+<div class="about-team-header">Meet the team and what we like</div>
+<div class="about-couple">
 <details class="about-person" id="stcost">
-<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/bce10ec46b619fd7a8660cc783d36462d44aa89e_full.jpg" alt="StCost" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1239690/f0af6694686ebf42992824a3ee5f6313fc00cd7c.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stcost">StCost</a></h2><ul class="about-roles"><li>Team Lead</li><li>Software Engineer</li><li>Game Designer</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a><a class="fav-chip" href="https://www.youtube.com/watch?v=nbogUmJkeBI"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello - I Wanna Kno" width="28" height="28" /><span>2 Mello - I Wanna Kno</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Venture_Bros."><img src="https://media.themoviedb.org/t/p/w185/ckQE1aLYQkRpp2HmHljiELAiOr1.jpg" alt="The Venture Bros." width="28" height="28" /><span>The Venture Bros.</span></a><a class="fav-chip" href="https://unity.com/"><img src="https://cdn.simpleicons.org/unity/FFFFFF" alt="Unity" width="28" height="28" /><span>Unity</span></a></span></span></summary>
+<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/bce10ec46b619fd7a8660cc783d36462d44aa89e_full.jpg" alt="StCost" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1239690/f0af6694686ebf42992824a3ee5f6313fc00cd7c.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stcost">StCost</a></h2><ul class="about-roles"><li>Team Lead</li><li>Software Engineer</li><li>Game Designer</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/823500/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/823500/capsule_184x69.jpg" alt="BONEWORKS" width="28" height="28" /><span>BONEWORKS</span></a><a class="fav-chip" href="https://www.youtube.com/watch?v=nbogUmJkeBI"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello - I Wanna Kno" width="28" height="28" /><span>2 Mello - I Wanna Kno</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Venture_Bros."><img src="https://media.themoviedb.org/t/p/w185/ckQE1aLYQkRpp2HmHljiELAiOr1.jpg" alt="The Venture Bros." width="28" height="28" /><span>The Venture Bros.</span></a><a class="fav-chip" href="https://unity.com/"><img src="https://cdn.simpleicons.org/unity/FFFFFF" alt="Unity" width="28" height="28" /><span>Unity</span></a></span></span></summary>
 <div class="about-row">
 <div class="about-section">
 <div class="about-section-label">About</div>
-<p class="about-note">2011: got own PC, was <a href="https://store.steampowered.com/app/440/">TF2</a> and <a href="https://www.minecraft.net/">Minecraft</a> server admin. 2016: first games - C++ terminal at university (<a href="https://dreamingsaints.github.io/blog/34-collapse-machine-stages/">see 34</a>). Developed <a href="https://fivem.net/">FiveM</a> themed Max-Max survival role-play server 32/32. First Steam game <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR</a> 2021. Spent too much time in <a href="https://store.steampowered.com/app/440/">TF2</a>. Hobbies: skateboarding, FPV piloting.</p>
+<p class="about-note">2011: got own PC, was <a href="https://store.steampowered.com/app/440/">TF2</a> and <a href="https://www.minecraft.net/">Minecraft</a> server admin. 2016: first games - C++ terminal at university (<a href="https://dreamingsaints.github.io/blog/34-collapse-machine-stages/">see 34</a>). Developed <a href="https://fivem.net/">FiveM</a> themed Max-Max survival role-play server 32/32. Spent too much time in <a href="https://store.steampowered.com/app/440/">TF2</a>. Hobbies: skateboarding, FPV piloting.</p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Likes</div>
 <p class="about-note"><a class="about-anchor" href="#sttaya">StTaya</a>, <a href="https://www.pepsi.com/">Pepsi</a>, <a href="https://www.nutella.com/">Nutella</a>, buns, <a href="https://en.wikipedia.org/wiki/Earl_Grey_tea">Earl Grey tea</a>, chips, beefsteak, strawberries.</p>
 <div class="fav-colors">
-<a class="fav-chip" href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE"><span class="fav-swatch orange"></span><span>#ff8000</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE"><span class="fav-swatch orange"></span><span>Perfect Orange (#ff8000)</span></a>
 </div>
 </div>
 </div>
@@ -477,6 +712,7 @@ a.fav-chip:hover {
 <div class="about-section">
 <div class="about-section-label">Games</div>
 <p class="fav-row">
+<a class="fav-chip" href="https://store.steampowered.com/app/823500/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/823500/capsule_184x69.jpg" alt="BONEWORKS" width="28" height="28" /><span>BONEWORKS</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/22350/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22350/capsule_184x69.jpg" alt="Brink" width="28" height="28" /><span>Brink</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/2000770/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2000770/capsule_184x69.jpg" alt="Ballance" width="28" height="28" /><span>Ballance</span></a>
@@ -488,7 +724,6 @@ a.fav-chip:hover {
 <a class="fav-chip" href="https://store.steampowered.com/app/294100/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/294100/capsule_184x69.jpg" alt="RimWorld" width="28" height="28" /><span>RimWorld</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/427520/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/capsule_184x69.jpg" alt="Factorio" width="28" height="28" /><span>Factorio</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/892970/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/capsule_184x69.jpg" alt="Valheim" width="28" height="28" /><span>Valheim</span></a>
-<a class="fav-chip" href="https://store.steampowered.com/app/823500/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/823500/capsule_184x69.jpg" alt="BONEWORKS" width="28" height="28" /><span>BONEWORKS</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/70/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/70/capsule_184x69.jpg" alt="Half-Life" width="28" height="28" /><span>Half-Life</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/220/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/220/capsule_184x69.jpg" alt="Half-Life 2" width="28" height="28" /><span>Half-Life 2</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/546560/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/546560/capsule_184x69.jpg" alt="Half-Life Alyx" width="28" height="28" /><span>Half-Life: Alyx</span></a>
@@ -531,6 +766,16 @@ a.fav-chip:hover {
 </div>
 </details>
 
+<div class="about-engaged" title="Engaged" aria-label="Engaged">
+<span class="about-engaged-gap">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 36 20" aria-hidden="true">
+<circle cx="12.5" cy="10" r="7" fill="none" stroke="#ff8000" stroke-width="2.1"/>
+<circle cx="23.5" cy="10" r="7" fill="none" stroke="#0abab5" stroke-width="2.1"/>
+<path d="M18.2 5.2a7 7 0 0 1 2.6 4.8" fill="none" stroke="#ff8000" stroke-width="2.1"/>
+</svg>
+</span>
+</div>
+
 <details class="about-person" id="sttaya">
 <summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/5bb86930eb99f482e56abc25937b7d6be37e83c3_full.jpg" alt="StTaya" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/944220/91b1c881cd9fc1b0f9f77f0d410b30eb3192cc41.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#sttaya">StTaya</a></h2><ul class="about-roles"><li>3D Artist</li><li>Art Designer</li><li>Animator</li><li>Level Designer</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/1361210/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_184x69.jpg" alt="Darktide" width="28" height="28" /><span>Darktide</span></a><a class="fav-chip" href="https://music.youtube.com/search?q=Jesper+Kyd"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JesperKyd.jpg/120px-JesperKyd.jpg" alt="Jesper Kyd" width="28" height="28" /><span>Jesper Kyd</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/Sucker_Punch_(2011_film)"><img src="https://media.themoviedb.org/t/p/w185/jtaUDnvIiHUd2ranDcjB5AbPx6o.jpg" alt="Sucker Punch" width="28" height="28" /><span>Sucker Punch</span></a><a class="fav-chip" href="https://www.blender.org/"><img src="https://cdn.simpleicons.org/blender/E87D0D" alt="Blender" width="28" height="28" /><span>Blender</span></a></span></span></summary>
 <div class="about-row">
@@ -542,8 +787,8 @@ a.fav-chip:hover {
 <div class="about-section-label">Likes</div>
 <p class="about-note"><a class="about-anchor" href="#stcost">StCost</a>, whiskey, burgers, beefsteak, strawberries, lettuce.</p>
 <div class="fav-colors">
-<span class="fav-chip"><span class="fav-swatch black"></span><span>Black</span></span>
 <span class="fav-chip"><span class="fav-swatch tiffany"></span><span>Tiffany</span></span>
+<span class="fav-chip"><span class="fav-swatch black"></span><span>Black</span></span>
 </div>
 </div>
 </div>
@@ -613,6 +858,7 @@ a.fav-chip:hover {
 </p>
 </div>
 </details>
+</div>
 
 <details class="about-person" id="stgrikus">
 <summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/55ca41f5225fee88d359222787ebac8f11241fa1_full.jpg" alt="StGrikus" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1361210/6a2ff332dc612e923dd1330b12981aa34ebc4895.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stgrikus">StGrikus</a></h2><ul class="about-roles"><li>Sound Designer</li><li>Sound Engineer</li><li>Marketing</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/1361210/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_184x69.jpg" alt="Darktide" width="28" height="28" /><span>Darktide</span></a><a class="fav-chip" href="https://music.youtube.com/search?q=Twenty+One+Pilots"><img src="https://images.genius.com/c4a8791231ded0415f792b94cc59a059.1000x1000x1.png" alt="Twenty One Pilots" width="28" height="28" /><span>Twenty One Pilots</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/Back_to_the_Future"><img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg" alt="Back to the Future" width="28" height="28" /><span>Back to the Future</span></a><a class="fav-chip" href="https://www.fmod.com/"><img src="https://www.fmod.com/favicon.ico" alt="FMOD" width="28" height="28" /><span>FMOD</span></a></span></span></summary>
