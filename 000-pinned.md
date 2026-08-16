@@ -52,6 +52,50 @@
   font-size: 0.85em;
   color: #8b949e;
 }
+.pinned-find > summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+}
+.pinned-find > summary::-webkit-details-marker { display: none; }
+.pinned-find > summary::marker { content: ""; }
+.pinned-find > summary::before {
+  content: "▸";
+  flex-shrink: 0;
+  width: 1em;
+  color: var(--color-primary);
+  font-size: 0.95em;
+  line-height: 1;
+}
+.pinned-find[open] > summary::before { content: "▾"; }
+.pinned-find-label {
+  margin-right: auto;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.pinned-find > summary:hover .pinned-find-label {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+.pinned-about-us {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-weight: 600;
+  padding-left: 12px;
+  margin-left: 4px;
+  border-left: 1px solid var(--color-border);
+}
+.pinned-about-us svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
 .pinned-links a {
   display: flex;
   align-items: center;
@@ -70,8 +114,8 @@
 }
 </style>
 
-<details>
-<summary style="cursor: pointer;">Find us</summary>
+<details class="pinned-find">
+<summary><span class="pinned-find-label">Find Us</span><a class="pinned-about-us" href="100-about/" onclick="event.stopPropagation()">About Us<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></summary>
 <table class="pinned-links" style="width: 100%; margin-top: 8px; text-align: left;">
   <thead>
     <tr>
