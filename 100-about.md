@@ -262,6 +262,10 @@
   font-size: 0.85em;
   color: #8b949e;
 }
+.about-section > .about-note + .about-note,
+.about-section > .about-note + .fav-row {
+  margin-top: 8px;
+}
 .about-note a {
   color: var(--color-primary);
   text-decoration: none;
@@ -619,16 +623,28 @@ a.fav-chip:hover {
 <div class="about-row">
 <div class="about-section">
 <div class="about-section-label">About</div>
-<p class="about-note">Coffee enthusiast and technical sound designer. 2012: started learning guitar, and music and sound have absorbed me ever since. Since 2023, worked as a barista at one of the city's best coffee shops, took part in coffee roasting more than once, and placed second in a Brewers Cup. Started studying <a href="https://www.fmod.com/">FMOD</a> and how sound works in games in 2025. Spent too much time in <a href="https://store.steampowered.com/app/730/">CS:GO</a>. Hobbies: guitar, coffee, skateboarding.</p>
+<p class="about-note">Technical sound designer. 2012: started learning guitar, and music and sound have absorbed me ever since. Started studying <a href="https://www.fmod.com/">FMOD</a> and how sound works in games in 2025. Spent too much time in <a href="https://store.steampowered.com/app/730/">CS:GO</a>. Hobbies: guitar, skateboarding.</p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Likes</div>
-<p class="about-note">Analyzing song structure and soundstage, <a href="https://heatroasters.com/product/colombia-grape/">HeatRoasters Colombia Grape</a> (Armenia, co-fermentation), <a href="https://heatroasters.com/product/colombia-paraiso-92/">HeatRoasters Colombia Paraiso 92</a> (Huila, washed, yeast fermentation and thermal shock), <a href="https://en.wikipedia.org/wiki/Da_Hong_Pao">Da Hong Pao</a>, White Oolong.</p>
+<p class="about-note">Analyzing song structure and soundstage, <a href="https://en.wikipedia.org/wiki/Da_Hong_Pao">Da Hong Pao</a>, White Oolong.</p>
 <div class="fav-colors">
 <span class="fav-chip"><span class="fav-swatch purple"></span><span>Purple</span></span>
 <span class="fav-chip"><span class="fav-swatch ultramarine"></span><span>#120A8F</span></span>
 </div>
 </div>
+</div>
+<div class="about-section">
+<div class="about-section-label">Coffee</div>
+<p class="about-note">2021: got into coffee by drinking V60, Chemex, and AeroPress in cafés. After getting a V60 for my birthday, started brewing at home and going deeper into beans. Autumn 2023: joined one of the city's best coffee shops and dove into processing, roasting, brewing, and how origins differ. Mid-2024: placed 2nd in a Brewers Cup, brewing Hario Switch and V60. Taught brewing workshops, lectured on coffee varieties and processing methods, and hosted open cuppings.</p>
+<p class="about-note">Favorite brew methods: <a href="https://www.hario-usa.com/products/v60-switch-immersion-dripper">Hario Switch</a>, <a href="https://en.wikipedia.org/wiki/Chemex_Coffeemaker">Chemex</a>, <a href="https://en.wikipedia.org/wiki/Hario">V60</a>.</p>
+<p class="fav-row">
+<a class="fav-chip" href="https://heatroasters.com/product/colombia-grape/" title="Armenia, co-fermentation"><img src="https://heatroasters.com/wp-content/uploads/2026/04/grape-775x1024.png" alt="Colombia Grape" width="28" height="28" /><span>Colombia Grape</span></a>
+<a class="fav-chip" href="https://heatroasters.com/product/colombia-paraiso-92/" title="Huila, washed, yeast fermentation and thermal shock"><img src="https://heatroasters.com/wp-content/uploads/2026/02/paraiso92-775x1024.png" alt="Colombia Paraiso 92" width="28" height="28" /><span>Colombia Paraiso 92</span></a>
+<a class="fav-chip" href="https://heatroasters.com/product/colombia-tres-letras/" title="Arauca, natural"><img src="https://heatroasters.com/wp-content/uploads/2026/02/tres-letras.png" alt="Colombia Tres Letras" width="28" height="28" /><span>Colombia Tres Letras</span></a>
+<a class="fav-chip" href="https://heatroasters.com/product/kenya-gachatha/" title="Nyeri, washed"><img src="https://heatroasters.com/wp-content/uploads/2026/02/gachata-775x1024.png" alt="Kenya Gachatha" width="28" height="28" /><span>Kenya Gachatha</span></a>
+<a class="fav-chip" href="https://heatroasters.com/product/ethiopia-gerba-dogo/" title="Guji, natural"><img src="https://heatroasters.com/wp-content/uploads/2026/02/gerba-dogo-1-775x1024.png" alt="Ethiopia Gerba Dogo" width="28" height="28" /><span>Ethiopia Gerba Dogo</span></a>
+</p>
 </div>
 <div class="about-row about-meta">
 <div class="about-section">
