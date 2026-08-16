@@ -1,6 +1,14 @@
 # #100 About
 
+<p class="about-kicker">Dreaming Saints team working on games you enjoy</p>
+
 <style>
+.about-kicker {
+  margin: 0 0 1rem;
+  color: #8b949e;
+  font-size: 1.05em;
+  font-weight: 400;
+}
 .about-person { overflow: visible; }
 .about-person > summary {
   display: flex;
@@ -428,11 +436,11 @@ a.fav-chip:hover {
 </style>
 
 <details class="about-person" id="stcost">
-<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/bce10ec46b619fd7a8660cc783d36462d44aa89e_full.jpg" alt="StCost" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1239690/f0af6694686ebf42992824a3ee5f6313fc00cd7c.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stcost">StCost</a></h2><ul class="about-roles"><li>Team Lead</li><li>Software Engineer</li><li>Game Designer</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a><a class="fav-chip" href="https://music.youtube.com/search?q=2+Mello"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello" width="28" height="28" /><span>2 Mello</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Venture_Bros."><img src="https://media.themoviedb.org/t/p/w185/ckQE1aLYQkRpp2HmHljiELAiOr1.jpg" alt="The Venture Bros." width="28" height="28" /><span>The Venture Bros.</span></a><a class="fav-chip" href="https://unity.com/"><img src="https://cdn.simpleicons.org/unity/FFFFFF" alt="Unity" width="28" height="28" /><span>Unity</span></a></span></span></summary>
+<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/bce10ec46b619fd7a8660cc783d36462d44aa89e_full.jpg" alt="StCost" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1239690/f0af6694686ebf42992824a3ee5f6313fc00cd7c.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stcost">StCost</a></h2><ul class="about-roles"><li>Team Lead</li><li>Software Engineer</li><li>Game Designer</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a><a class="fav-chip" href="https://www.youtube.com/watch?v=nbogUmJkeBI"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello - I Wanna Kno" width="28" height="28" /><span>2 Mello - I Wanna Kno</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Venture_Bros."><img src="https://media.themoviedb.org/t/p/w185/ckQE1aLYQkRpp2HmHljiELAiOr1.jpg" alt="The Venture Bros." width="28" height="28" /><span>The Venture Bros.</span></a><a class="fav-chip" href="https://unity.com/"><img src="https://cdn.simpleicons.org/unity/FFFFFF" alt="Unity" width="28" height="28" /><span>Unity</span></a></span></span></summary>
 <div class="about-row">
 <div class="about-section">
 <div class="about-section-label">About</div>
-<p class="about-note">2016: first games — C++ terminal at university, see <a href="https://dreamingsaints.github.io/blog/34-collapse-machine-stages/">#34</a>. First Steam game <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR</a> 2021. Spent too much time in <a href="https://store.steampowered.com/app/440/">TF2</a>. Hobbies: skateboarding, FPV piloting.</p>
+<p class="about-note">2011: got own PC, was <a href="https://store.steampowered.com/app/440/">TF2</a> and <a href="https://www.minecraft.net/">Minecraft</a> server admin. 2016: first games - C++ terminal at university (<a href="https://dreamingsaints.github.io/blog/34-collapse-machine-stages/">see 34</a>). Developed <a href="https://fivem.net/">FiveM</a> themed Max-Max survival role-play server 32/32. First Steam game <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR</a> 2021. Spent too much time in <a href="https://store.steampowered.com/app/440/">TF2</a>. Hobbies: skateboarding, FPV piloting.</p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Likes</div>
@@ -495,15 +503,14 @@ a.fav-chip:hover {
 <div class="about-section">
 <div class="about-section-label">Music</div>
 <p class="fav-row">
-<a class="fav-chip" href="https://music.youtube.com/search?q=2+Mello"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello" width="28" height="28" /><span>2 Mello</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=Frank+Sinatra"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/120px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg" alt="Frank Sinatra" width="28" height="28" /><span>Frank Sinatra</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=Pink+Floyd"><img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg" alt="Pink Floyd" width="28" height="28" /><span>Pink Floyd</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=Bullet+for+My+Valentine"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bullet_for_My_Valentine_Full_Force_2022_17.jpg/120px-Bullet_for_My_Valentine_Full_Force_2022_17.jpg" alt="Bullet for My Valentine" width="28" height="28" /><span>Bullet for My Valentine</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=Evans+Blue"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/EvansBlueLive.JPG/120px-EvansBlueLive.JPG" alt="Evans Blue" width="28" height="28" /><span>Evans Blue</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=SAINT+PEPSI"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/b0/53/47b053ee-d011-2d7f-36d9-237adb441f09/820233284479.jpg/100x100bb.jpg" alt="SAINT PEPSI" width="28" height="28" /><span>SAINT PEPSI</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=Breaking+Benjamin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Breaking_Benjamin_2-14-15.jpg/120px-Breaking_Benjamin_2-14-15.jpg" alt="Breaking Benjamin" width="28" height="28" /><span>Breaking Benjamin</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=TOOL"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tool_live_Birmingham_2022.jpg/120px-Tool_live_Birmingham_2022.jpg" alt="TOOL" width="28" height="28" /><span>TOOL</span></a>
-<a class="fav-chip" href="https://music.youtube.com/search?q=A+Perfect+Circle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/A_Perfect_Circle_Lollapalooza_Chile_2013.jpg/120px-A_Perfect_Circle_Lollapalooza_Chile_2013.jpg" alt="A Perfect Circle" width="28" height="28" /><span>A Perfect Circle</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=nbogUmJkeBI"><img src="https://img.youtube.com/vi/nbogUmJkeBI/mqdefault.jpg" alt="2 Mello - I Wanna Kno" width="28" height="28" /><span>2 Mello - I Wanna Kno</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=Dw1ZC6sZjIY"><img src="https://img.youtube.com/vi/Dw1ZC6sZjIY/mqdefault.jpg" alt="Frank Sinatra - Blue Moon" width="28" height="28" /><span>Frank Sinatra - Blue Moon</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=Pd-qu_ErkbE"><img src="https://img.youtube.com/vi/Pd-qu_ErkbE/mqdefault.jpg" alt="Pink Floyd - Crazy Diamond" width="28" height="28" /><span>Pink Floyd - Crazy Diamond</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=c0SrxSMHDmE"><img src="https://img.youtube.com/vi/c0SrxSMHDmE/mqdefault.jpg" alt="Bullet For My Valentine - Hand Of Blood" width="28" height="28" /><span>Bullet For My Valentine - Hand Of Blood</span></a>
+<a class="fav-chip" href="https://music.youtube.com/search?q=Evans+Blue+iGod"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/98/f2/79/98f279ea-f1a2-e258-d96a-8ceff77f8e58/859728161827_cover.jpg/100x100bb.jpg" alt="Evans Blue - iGod" width="28" height="28" /><span>Evans Blue - iGod</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=_Y_a0PWlBr8"><img src="https://img.youtube.com/vi/_Y_a0PWlBr8/mqdefault.jpg" alt="Breaking Benjamin - Psycho" width="28" height="28" /><span>Breaking Benjamin - Psycho</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=MM62wjLrgmA"><img src="https://img.youtube.com/vi/MM62wjLrgmA/mqdefault.jpg" alt="TOOL - Schism" width="28" height="28" /><span>TOOL - Schism</span></a>
+<a class="fav-chip" href="https://www.youtube.com/watch?v=3NNaUQnFL2c"><img src="https://img.youtube.com/vi/3NNaUQnFL2c/mqdefault.jpg" alt="A Perfect Circle - Rose" width="28" height="28" /><span>A Perfect Circle - Rose</span></a>
 </p>
 </div>
 <div class="about-section">
@@ -597,7 +604,7 @@ a.fav-chip:hover {
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Hunger_Games_(film)"><img src="https://media.themoviedb.org/t/p/w185/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg" alt="The Hunger Games" width="28" height="28" /><span>The Hunger Games</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/Forrest_Gump"><img src="https://media.themoviedb.org/t/p/w185/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg" alt="Forrest Gump" width="28" height="28" /><span>Forrest Gump</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/Real_Steel"><img src="https://media.themoviedb.org/t/p/w185/4GIeI5K5YdDUkR3mNQBoScpSFEf.jpg" alt="Real Steel" width="28" height="28" /><span>Real Steel</span></a>
-<a class="fav-chip" href="https://en.wikipedia.org/wiki/Peaceful_Warrior"><img src="https://media.themoviedb.org/t/p/w185/9OqDWRgUDtrkLZ57RwyMz8NzV81.jpg" alt="Peaceful Warrior" width="28" height="28" /><span>Peaceful Warrior</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Peaceful_Warrior"><img src="https://media.themoviedb.org/t/p/w185/r4VQCZe3aSo7TmmsxcyLqaoMR1l.jpg" alt="Peaceful Warrior" width="28" height="28" /><span>Peaceful Warrior</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure:_Stardust_Crusaders"><img src="https://media.themoviedb.org/t/p/w185/kX9noqY0YpOPKwXpRXYg1hEIqmM.jpg" alt="Stardust Crusaders" width="28" height="28" /><span>Stardust Crusaders</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Venture_Bros."><img src="https://media.themoviedb.org/t/p/w185/ckQE1aLYQkRpp2HmHljiELAiOr1.jpg" alt="The Venture Bros." width="28" height="28" /><span>The Venture Bros.</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/Halo_(TV_series)"><img src="https://media.themoviedb.org/t/p/w185/4UmNhZCEu8Vt3byMvNxNEPyf8EY.jpg" alt="Halo" width="28" height="28" /><span>Halo</span></a>
