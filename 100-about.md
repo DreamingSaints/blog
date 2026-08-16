@@ -425,6 +425,7 @@ a.fav-chip:hover {
 .fav-swatch.black { background: #111; }
 .fav-swatch.tiffany { background: #0abab5; }
 .fav-swatch.purple { background: #800080; }
+.fav-swatch.ultramarine { background: #120A8F; }
 </style>
 
 <details class="about-person" id="stcost">
@@ -607,17 +608,18 @@ a.fav-chip:hover {
 </details>
 
 <details class="about-person" id="stgrikus">
-<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/55ca41f5225fee88d359222787ebac8f11241fa1_full.jpg" alt="StGrikus" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1361210/6a2ff332dc612e923dd1330b12981aa34ebc4895.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stgrikus">StGrikus</a></h2><ul class="about-roles"><li>Sound Designer</li><li>Marketing</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a><a class="fav-chip" href="https://music.youtube.com/search?q=Cathode+Electrode"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/dc/8a/fcdc8a3e-1c89-1fcc-5a56-4c35d09f4d51/859741339685_cover.jpg/100x100bb.jpg" alt="Cathode Electrode" width="28" height="28" /><span>Cathode Electrode</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)"><img src="https://media.themoviedb.org/t/p/w185/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg" alt="Attack on Titan" width="28" height="28" /><span>Attack on Titan</span></a><a class="fav-chip" href="https://www.image-line.com/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/FL_Studio_11_just_logo.png/120px-FL_Studio_11_just_logo.png" alt="FL Studio" width="28" height="28" /><span>FL Studio</span></a></span></span></summary>
+<summary><span class="about-head"><span class="about-avatar-link"><span class="about-avatar-wrap"><img src="https://avatars.fastly.steamstatic.com/55ca41f5225fee88d359222787ebac8f11241fa1_full.jpg" alt="StGrikus" width="96" height="96" /><img src="https://shared.fastly.steamstatic.com/community_assets/images/items/1361210/6a2ff332dc612e923dd1330b12981aa34ebc4895.png" alt=" " width="96" height="96" /></span></span><span class="about-id"><h2 class="about-name"><a class="about-anchor" href="#stgrikus">StGrikus</a></h2><ul class="about-roles"><li>Sound Designer</li><li>Sound Engineer</li><li>Marketing</li></ul></span><span class="about-head-split"></span><span class="about-tops"><a class="fav-chip" href="https://store.steampowered.com/app/1361210/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_184x69.jpg" alt="Darktide" width="28" height="28" /><span>Darktide</span></a><a class="fav-chip" href="https://music.youtube.com/search?q=Twenty+One+Pilots"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Twenty_One_Pilots_%2822314815091%29.jpg/120px-Twenty_One_Pilots_%2822314815091%29.jpg" alt="Twenty One Pilots" width="28" height="28" /><span>Twenty One Pilots</span></a><a class="fav-chip" href="https://en.wikipedia.org/wiki/Back_to_the_Future"><img src="https://media.themoviedb.org/t/p/w185/WPRsNihhKPQmmQgckg1XLTRMYa.jpg" alt="Back to the Future" width="28" height="28" /><span>Back to the Future</span></a><a class="fav-chip" href="https://www.fmod.com/"><img src="https://www.fmod.com/favicon.ico" alt="FMOD" width="28" height="28" /><span>FMOD</span></a></span></span></summary>
 <div class="about-row">
 <div class="about-section">
 <div class="about-section-label">About</div>
-<p class="about-note">TBD</p>
+<p class="about-note">Coffee enthusiast and technical sound designer. 2012: started learning guitar, and music and sound have absorbed me ever since. Since 2023, worked as a barista at one of the city's best coffee shops, took part in coffee roasting more than once, and placed second in a Brewers Cup. Started studying <a href="https://www.fmod.com/">FMOD</a> and how sound works in games in 2025. Spent too much time in <a href="https://store.steampowered.com/app/730/">CS:GO</a>. Hobbies: guitar, coffee, skateboarding.</p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Likes</div>
-<p class="about-note">TBD</p>
+<p class="about-note">Analyzing song structure and soundstage, <a href="https://heatroasters.com/product/colombia-grape/">HeatRoasters Colombia Grape</a> (Armenia, co-fermentation), <a href="https://heatroasters.com/product/colombia-paraiso-92/">HeatRoasters Colombia Paraiso 92</a> (Huila, washed, yeast fermentation and thermal shock), <a href="https://en.wikipedia.org/wiki/Da_Hong_Pao">Da Hong Pao</a>, White Oolong.</p>
 <div class="fav-colors">
 <span class="fav-chip"><span class="fav-swatch purple"></span><span>Purple</span></span>
+<span class="fav-chip"><span class="fav-swatch ultramarine"></span><span>#120A8F</span></span>
 </div>
 </div>
 </div>
@@ -626,38 +628,84 @@ a.fav-chip:hover {
 <div class="about-section-label">Media</div>
 <p class="fav-row fav-compact">
 <a class="fav-chip" href="https://steamcommunity.com/id/grikus"><img src="https://cdn.simpleicons.org/steam/FFFFFF" alt="Steam" width="28" height="28" /><span>Steam</span></a>
+<a class="fav-chip" href="https://www.instagram.com/stgrikus/"><img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" width="28" height="28" /><span>Instagram</span></a>
+<a class="fav-chip" href="https://t.me/stgrikussound"><img src="https://cdn.simpleicons.org/telegram/26A5E4" alt="Telegram" width="28" height="28" /><span>Telegram</span></a>
+<a class="fav-chip" href="https://www.twitch.tv/stgrikus"><img src="https://cdn.simpleicons.org/twitch/9146FF" alt="Twitch" width="28" height="28" /><span>Twitch</span></a>
 </p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Tools</div>
 <p class="fav-row fav-compact">
-<a class="fav-chip" href="https://www.image-line.com/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/FL_Studio_11_just_logo.png/120px-FL_Studio_11_just_logo.png" alt="FL Studio" width="28" height="28" /><span>FL Studio</span></a>
 <a class="fav-chip" href="https://www.fmod.com/"><img src="https://www.fmod.com/favicon.ico" alt="FMOD" width="28" height="28" /><span>FMOD</span></a>
+<a class="fav-chip" href="https://www.image-line.com/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/FL_Studio_11_just_logo.png/120px-FL_Studio_11_just_logo.png" alt="FL Studio" width="28" height="28" /><span>FL Studio</span></a>
+<a class="fav-chip" href="https://www.reaper.fm/"><img src="https://www.reaper.fm/v5img/logo.jpg" alt="REAPER" width="28" height="28" /><span>REAPER</span></a>
+<a class="fav-chip" href="https://unity.com/"><img src="https://cdn.simpleicons.org/unity/FFFFFF" alt="Unity" width="28" height="28" /><span>Unity</span></a>
+<a class="fav-chip" href="https://cursor.com/"><img src="https://cdn.simpleicons.org/cursor/FFFFFF" alt="Cursor" width="28" height="28" /><span>Cursor</span></a>
+<a class="fav-chip" href="https://www.blackmagicdesign.com/products/davinciresolve"><img src="https://cdn.simpleicons.org/davinciresolve/FFFFFF" alt="DaVinci Resolve" width="28" height="28" /><span>DaVinci Resolve</span></a>
+<a class="fav-chip" href="https://www.adobe.com/products/photoshop.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/120px-Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop" width="28" height="28" /><span>Photoshop</span></a>
+<a class="fav-chip" href="https://obsproject.com/"><img src="https://cdn.simpleicons.org/obsstudio/FFFFFF" alt="OBS Studio" width="28" height="28" /><span>OBS Studio</span></a>
 </p>
 </div>
 </div>
 <div class="about-section">
 <div class="about-section-label">Games</div>
 <p class="fav-row">
-<a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a>
-<a class="fav-chip" href="https://store.steampowered.com/app/22350/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22350/capsule_184x69.jpg" alt="Brink" width="28" height="28" /><span>Brink</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/1361210/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1361210/capsule_184x69.jpg" alt="Darktide" width="28" height="28" /><span>Darktide</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/22380/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22380/capsule_184x69.jpg" alt="Fallout New Vegas" width="28" height="28" /><span>Fallout: New Vegas</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/553850/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/553850/capsule_184x69.jpg" alt="HELLDIVERS 2" width="28" height="28" /><span>HELLDIVERS 2</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/427520/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/427520/capsule_184x69.jpg" alt="Factorio" width="28" height="28" /><span>Factorio</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/892970/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/892970/capsule_184x69.jpg" alt="Valheim" width="28" height="28" /><span>Valheim</span></a>
 <a class="fav-chip" href="https://store.steampowered.com/app/632360/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/632360/capsule_184x69.jpg" alt="Risk of Rain 2" width="28" height="28" /><span>Risk of Rain 2</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/570/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/capsule_184x69.jpg" alt="Dota 2" width="28" height="28" /><span>Dota 2</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/1086940/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_184x69.jpg" alt="Baldur's Gate 3" width="28" height="28" /><span>Baldur's Gate 3</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/227300/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/227300/capsule_184x69.jpg" alt="Euro Truck Simulator 2" width="28" height="28" /><span>Euro Truck Simulator 2</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/22350/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/22350/capsule_184x69.jpg" alt="Brink" width="28" height="28" /><span>Brink</span></a>
+<a class="fav-chip" href="https://www.vintagestory.at/"><img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Vintage_Story_Logo.png" alt="Vintage Story" width="28" height="28" /><span>Vintage Story</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/2186680/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2186680/capsule_184x69.jpg" alt="Warhammer 40,000: Rogue Trader" width="28" height="28" /><span>Warhammer 40,000: Rogue Trader</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/231430/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/231430/capsule_184x69.jpg" alt="Company of Heroes 2" width="28" height="28" /><span>Company of Heroes 2</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/489830/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/489830/capsule_184x69.jpg" alt="Skyrim" width="28" height="28" /><span>Skyrim</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/990080/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_184x69.jpg" alt="Hogwarts Legacy" width="28" height="28" /><span>Hogwarts Legacy</span></a>
+<a class="fav-chip" href="https://store.steampowered.com/app/271590/"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_184x69.jpg" alt="GTA V" width="28" height="28" /><span>GTA V</span></a>
 </p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Music</div>
 <p class="fav-row">
+<a class="fav-chip" href="https://music.youtube.com/search?q=Twenty+One+Pilots"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Twenty_One_Pilots_%2822314815091%29.jpg/120px-Twenty_One_Pilots_%2822314815091%29.jpg" alt="Twenty One Pilots" width="28" height="28" /><span>Twenty One Pilots</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@themidnightofficial"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/2b/28/9d2b28ce-421f-85f5-d48c-7a79ba8f9edb/859728051630_cover.jpg/100x100bb.jpg" alt="The Midnight" width="28" height="28" /><span>The Midnight</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@GUNSHIPMUSIC"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7e/0e/6a/7e0e6a27-f9c5-178c-f045-c7211beb4217/192641495236_Cover.jpg/100x100bb.jpg" alt="GUNSHIP" width="28" height="28" /><span>GUNSHIP</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@KAVINSKY"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c1/2d/fe/c12dfe8f-cdf6-e179-d69a-8ec35f760266/00602537248681.rgb.jpg/100x100bb.jpg" alt="Kavinsky" width="28" height="28" /><span>Kavinsky</span></a>
+<a class="fav-chip" href="https://music.youtube.com/channel/UCr7ZuYFBf8Xna3QWDMaqXbQ"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/f3/3c/aef33c9b-9ab4-6a7e-4b22-d3984b2ff469/849320014362.png/100x100bb.jpg" alt="Nothing More" width="28" height="28" /><span>Nothing More</span></a>
+<a class="fav-chip" href="https://music.youtube.com/channel/UCHuHOg9oIYKKkdfkxQj7urw"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/0b/06/410b069f-c25f-f9bc-7cca-1299ff520ff5/0.jpg/100x100bb.jpg" alt="Radiotehnika" width="28" height="28" /><span>Radiotehnika</span></a>
+<a class="fav-chip" href="https://music.youtube.com/channel/UCEwg4JDZJEkST4oiiFv_nrg"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/7d/0c/707d0ccf-dab2-f2e1-92f0-e7d1b6e5812d/artwork.jpg/100x100bb.jpg" alt="Kalax" width="28" height="28" /><span>Kalax</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@TOOLmusic"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tool_live_Birmingham_2022.jpg/120px-Tool_live_Birmingham_2022.jpg" alt="TOOL" width="28" height="28" /><span>TOOL</span></a>
+<a class="fav-chip" href="https://music.youtube.com/channel/UCrSorX845CEWXzU4Z7BojjA"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Red_Hot_Chili_Peppers_2012-07-02_001.jpg/120px-Red_Hot_Chili_Peppers_2012-07-02_001.jpg" alt="Red Hot Chili Peppers" width="28" height="28" /><span>Red Hot Chili Peppers</span></a>
+<a class="fav-chip" href="https://music.youtube.com/channel/UCRr1xG_2WIDs18a6cIiCxeA"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Daft_Punk_in_2013_2-_centered.jpg/120px-Daft_Punk_in_2013_2-_centered.jpg" alt="Daft Punk" width="28" height="28" /><span>Daft Punk</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@eminem"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Eminem_Lollapalooza_2014_Chicago_%28cropped%29.jpg/120px-Eminem_Lollapalooza_2014_Chicago_%28cropped%29.jpg" alt="Eminem" width="28" height="28" /><span>Eminem</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@LinkinPark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Linkin_Park_at_Soundwave_2013.jpg/120px-Linkin_Park_at_Soundwave_2013.jpg" alt="Linkin Park" width="28" height="28" /><span>Linkin Park</span></a>
 <a class="fav-chip" href="https://music.youtube.com/search?q=Cathode+Electrode"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/dc/8a/fcdc8a3e-1c89-1fcc-5a56-4c35d09f4d51/859741339685_cover.jpg/100x100bb.jpg" alt="Cathode Electrode" width="28" height="28" /><span>Cathode Electrode</span></a>
+<a class="fav-chip" href="https://music.youtube.com/@DrakeBellOfficial"><img src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/2a/21/f12a2180-7926-00a2-d526-f9f695f7a7f6/00602517178502.rgb.jpg/100x100bb.jpg" alt="Drake Bell" width="28" height="28" /><span>Drake Bell</span></a>
 </p>
 </div>
 <div class="about-section">
 <div class="about-section-label">Movies/series/cartoons</div>
 <p class="fav-row">
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Back_to_the_Future"><img src="https://media.themoviedb.org/t/p/w185/WPRsNihhKPQmmQgckg1XLTRMYa.jpg" alt="Back to the Future" width="28" height="28" /><span>Back to the Future</span></a>
 <a class="fav-chip" href="https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)"><img src="https://media.themoviedb.org/t/p/w185/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg" alt="Attack on Titan" width="28" height="28" /><span>Attack on Titan</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Interstellar_(film)"><img src="https://media.themoviedb.org/t/p/w185/9d1sCoMSGJZtghS2X9us1h9u8lW.jpg" alt="Interstellar" width="28" height="28" /><span>Interstellar</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Inception"><img src="https://media.themoviedb.org/t/p/w185/r84x4x93LbZ2gozISTBYVeq0gLZ.jpg" alt="Inception" width="28" height="28" /><span>Inception</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Joker_(2019_film)"><img src="https://media.themoviedb.org/t/p/w185/5h77YBF7g9s0ju5yblWskkN3wa7.jpg" alt="Joker" width="28" height="28" /><span>Joker</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Soul_(2020_film)"><img src="https://media.themoviedb.org/t/p/w185/nPHeauU0udKIpFH208cxhnvmHFB.jpg" alt="Soul" width="28" height="28" /><span>Soul</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Luck_(2022_film)"><img src="https://media.themoviedb.org/t/p/w185/w7qTIyUz2LED8Jpd24sPx0GGQpC.jpg" alt="Luck" width="28" height="28" /><span>Luck</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/The_World%27s_Fastest_Indian"><img src="https://media.themoviedb.org/t/p/w185/1ucKR3oNvWa8ft0mq2g8qA8bITy.jpg" alt="The World's Fastest Indian" width="28" height="28" /><span>The World's Fastest Indian</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Rick_and_Morty"><img src="https://media.themoviedb.org/t/p/w185/tnXwqcZ98EVKuMzRtcvPRJukwI3.jpg" alt="Rick and Morty" width="28" height="28" /><span>Rick and Morty</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Hacksaw_Ridge"><img src="https://media.themoviedb.org/t/p/w185/8mYSAEymWKubpgRUyzN2BeiIoUo.jpg" alt="Hacksaw Ridge" width="28" height="28" /><span>Hacksaw Ridge</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Iron_Man_(2008_film)"><img src="https://media.themoviedb.org/t/p/w185/e196fIvszLpgaUItX3Yl3seyUTl.jpg" alt="Iron Man" width="28" height="28" /><span>Iron Man</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Iron_Man_2"><img src="https://media.themoviedb.org/t/p/w185/g9ANwGAcemCCOBUYKgAL3EsZJBE.jpg" alt="Iron Man 2" width="28" height="28" /><span>Iron Man 2</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Batman_Begins"><img src="https://media.themoviedb.org/t/p/w185/gDpMT5nrgsuSAgX3NfRg2ZOsr0d.jpg" alt="Batman Begins" width="28" height="28" /><span>Batman Begins</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Oppenheimer_(film)"><img src="https://media.themoviedb.org/t/p/w185/iAv3HAlrrIgjcf2yCFvedJzekXT.jpg" alt="Oppenheimer" width="28" height="28" /><span>Oppenheimer</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/The_Mask_(1994_film)"><img src="https://media.themoviedb.org/t/p/w185/v0mptZw5Zxf0KfF96JsZEBxBtzZ.jpg" alt="The Mask" width="28" height="28" /><span>The Mask</span></a>
+<a class="fav-chip" href="https://en.wikipedia.org/wiki/Drake_%26_Josh"><img src="https://media.themoviedb.org/t/p/w185/aXDUxPkMswvgmwWuNjkTe4UgzfL.jpg" alt="Drake &amp; Josh" width="28" height="28" /><span>Drake &amp; Josh</span></a>
 </p>
 </div>
 </details>
