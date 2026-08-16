@@ -58,23 +58,40 @@
   height: 96px;
   margin: 8px;
 }
+/* Live engine wraps each img in a.post-image-link; pin those links or they stack into other cards. */
+.about-avatar-wrap > a {
+  position: absolute;
+  inset: 0;
+  display: block !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0;
+  line-height: 0;
+  border: none !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.about-avatar-wrap > a:last-child {
+  z-index: 1;
+  pointer-events: none;
+}
 .about-avatar-wrap img {
   display: block;
+  position: absolute;
   margin: 0 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   background: none !important;
   max-width: none !important;
 }
-.about-avatar-wrap > img:first-of-type {
-  position: absolute;
+.about-avatar-wrap img[src*="avatars."] {
   inset: 2px;
   width: calc(100% - 4px) !important;
   height: calc(100% - 4px) !important;
   object-fit: cover;
 }
-.about-avatar-wrap > img:last-of-type {
-  position: absolute;
+.about-avatar-wrap img[src*="community_assets"] {
   inset: 0;
   width: 100% !important;
   height: 100% !important;
