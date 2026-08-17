@@ -255,7 +255,7 @@
   flex: 1 1 auto;
   align-content: stretch;
   align-items: stretch;
-  margin: calc(-0.5rem - 4px) -0.75rem calc(-0.5rem - 4px) -12px;
+  margin: calc(-0.5rem - 4px) calc(-1 * var(--card-pad, 2rem)) calc(-0.5rem - 4px) -12px;
 }
 .about-tops::before,
 .about-tops::after {
@@ -326,6 +326,22 @@
 .about-tops > .fav-chip:nth-child(4):hover img,
 .about-tops > .fav-chip:nth-child(4):focus-visible img {
   animation: none;
+}
+
+@media (max-width: 720px) {
+  .about-head-split {
+    display: none;
+  }
+  .about-tops {
+    flex: 1 1 100%;
+    width: 100%;
+    min-height: 120px;
+    margin: 8px 0 0;
+  }
+  .about-tops::before,
+  .about-tops::after {
+    display: none;
+  }
 }
 
 .about-row {
@@ -571,7 +587,7 @@ a.fav-chip:hover {
   left: 0;
   top: calc(100% + 6px);
   z-index: 50;
-  width: 272px;
+  width: min(272px, calc(100vw - 16px));
   pointer-events: none;
   background: var(--color-bg-secondary, #161b22);
   border: 1px solid #30363d;
