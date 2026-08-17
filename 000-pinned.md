@@ -1,28 +1,28 @@
 <div class="games-grid">
   <div class="game-cell">
     <div class="game-cell-top">
-      <a href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE">COLLAPSE MACHINE</a> 💥🚕
+      <a href="https://store.steampowered.com/app/2980830/COLLAPSE_MACHINE">COLLAPSE MACHINE<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/2980830/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">COLLAPSE MACHINE</span><span class="about-tip-date">since Sep 2023</span><span class="about-tip-desc">In COLLAPSE MACHINE - scavenge, raid, and survive a super-magnetic wasteland in co-op PvE. Hoard tesla-punk tech, mine voxel terrain, run a mobile vehicle base through shifting seasons, intercept rivals, and siege their factories</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Initial idea was to freely walk in co-op inside the vehicle cargo hangar, while a friend drives the car over desert dunes. Solved it by hiding static colliders, while visuals render near the car. The camera sees real movement, while physics of internal objects stays stable.</span></span></span></a> 💥🚕
       <small class="game-status">(coming)</small>
     </div>
     <p class="game-desc">a tesla-punk co-op open-world imm-sim fps sandbox</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
-      <a href="https://store.steampowered.com/app/4967660/">Ball-Aqua</a> 🔮🌊
+      <a href="https://store.steampowered.com/app/4967660/">Ball-Aqua<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4967660/b2762559bd37c68c7df2cc04f47b19fb3be7d7ef/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">Ball-Aqua</span><span class="about-tip-date">demo 20 Aug 2026</span><span class="about-tip-desc">Demo Launch on August 20! Roll a physics ball through tropical obstacle courses. Beat the timer, collect bubbles and stars, and chase 100% clears. Play Freeroam solo or co-op, compete in Race, build levels, and share on Steam Workshop.</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>I've seen many ball-rolling games recently. But all of them had terrible movement and platforms - just thin beams. I wanted to speed and jump forward, not short hops on thin platforms. That day I stumbled on the Frutiger Aero water album Alezya - Dream Island (youtube.com/watch?v=3R6beuJQkxM). Such hydrated music inspired me to make a water-themed ball-rolling multiplayer with a level editor and freedom. Spent about a month on a playable version to show as a demo. A few more months to polish and make more levels for the full release.</span></span></span></a> 🔮🌊
       <small class="game-status">(demo 20 Aug 2026)</small>
     </div>
     <p class="game-desc">a tropical ball-rolling multiplayer 3D platformer</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
-      <a href="https://store.steampowered.com/app/3600250/Whomers_Ate_My_Lawn/">Whomers Ate My Lawn!</a> 👾🥕
+      <a href="https://store.steampowered.com/app/3600250/Whomers_Ate_My_Lawn/">Whomers Ate My Lawn!<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3600250/69ff0311912878d48a0a7cb7523639b51370982b/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">Whomers Ate My Lawn!</span><span class="about-tip-date">released 6 Apr 2025</span><span class="about-tip-desc">Dive into a simple yet charming world where curious Whomers creatures dig, eat, and survive in a compact 64x64 grid. This minimalistic simulation offers a peaceful experience of watching and interacting with small digital beings as they go about their lives</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Inspired by RimWorld, I wanted my own small semi-afk villager-manager. Made small creatures digging the lawn. You as God restore or dig more grass. Grow plants for more carrots. All to grow the population of Whomers. Made in 1 month with MonoGame in C#.</span></span></span></a> 👾🥕
       <small class="game-status">(released 6 Apr 2025)</small>
     </div>
     <p class="game-desc">a farm of tiny pets digging lawn to find carrots</p>
   </div>
   <div class="game-cell">
     <div class="game-cell-top">
-      <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR</a> 🧗‍♀️💀
+      <a href="https://store.steampowered.com/app/1775350/RISING_BONEvR/">RISING BONEvR<span class="about-tip"><span class="about-tip-art" style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/1775350/header.jpg')"></span><span class="about-tip-body"><span class="about-tip-title">RISING BONEvR</span><span class="about-tip-date">demo 7 Nov 2021</span><span class="about-tip-desc">(First level demo available!) Physics based puzzle about climbing out of deep hell without any legs</span><span class="about-tip-note"><span class="about-tip-said">StCost says</span>Quite a challenge to implement VR physics similar to BONEWORKS. Learned more math, vectors, matrices. Level design is terrible, physics clunky, but gameplay was fun when it works. My first proper C# game, and fiancee StTaya helped by making her first 3D models in Blender. Some day we'll continue - we learned many new lessons since then.</span></span></span></a> 🧗‍♀️💀
       <small class="game-status">(demo 7 Nov 2021)</small>
     </div>
     <p class="game-desc">a physics VR climb out of hell without legs</p>
@@ -35,12 +35,24 @@
   grid-template-columns: 1fr 1fr;
   gap: 12px 20px;
   margin: 0 0 0.75rem;
+  overflow: visible;
+}
+.game-cell {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+.game-cell:hover {
+  z-index: 40;
 }
 .game-cell-top {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 6px;
+}
+.game-cell-top a {
+  position: relative;
 }
 .game-status {
   color: #6e7681;
@@ -51,6 +63,89 @@
   margin: 0.2rem 0 0;
   font-size: 0.85em;
   color: #8b949e;
+}
+.games-grid .about-tip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  z-index: 50;
+  width: min(272px, calc(100vw - 16px));
+  pointer-events: none;
+  background: var(--color-bg-secondary, #161b22);
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  color: #c9d1d9;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.35;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+}
+.game-cell:nth-child(even) .about-tip {
+  left: auto;
+  right: 0;
+}
+.game-cell-top a:hover > .about-tip {
+  display: block;
+  color: #c9d1d9;
+  text-decoration: none;
+}
+.games-grid .about-tip-art {
+  display: block;
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  background: #0d1117 center / cover no-repeat;
+}
+.games-grid .about-tip-body {
+  display: block;
+  padding: 8px 10px 10px;
+}
+.games-grid .about-tip-title {
+  display: inline;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.games-grid .about-tip-date {
+  display: inline;
+  margin: 0 0 0 6px;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: #6e7681;
+}
+.games-grid .about-tip-desc {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8em;
+  color: #8b949e;
+}
+.games-grid .about-tip-note {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.75em;
+  font-style: italic;
+  color: #8b949e;
+}
+.games-grid .about-tip-said {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-style: normal;
+  font-weight: 600;
+  color: #6e7681;
+}
+.games-grid .about-tip-said::after {
+  content: "";
+  flex: 1 1 auto;
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 0.2em;
 }
 .pinned-find > summary {
   display: flex;
