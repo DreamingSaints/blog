@@ -484,7 +484,9 @@
 .fav-row > .fav-chip > .about-tip,
 .about-tops > .fav-chip > .about-tip,
 .fav-colors > .fav-chip > .about-tip {
-  position: fixed;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
 }
 .fav-row > .fav-chip:has(img[src*="/capsule_"]),
 .fav-row > .fav-chip:has(img[src*="/header.jpg"]),
@@ -645,9 +647,9 @@
 }
 .about-tip {
   display: none;
-  position: fixed;
+  position: absolute;
   left: 0;
-  top: 0;
+  top: calc(100% + 6px);
   z-index: 10000;
   width: min(272px, calc(100vw - 16px));
   margin: 0;
