@@ -82,6 +82,9 @@
   font-size: 0.85em;
   color: #8b949e;
 }
+.game-cell-top .about-tip {
+  display: none;
+}
 .pinned-find > summary {
   display: flex;
   align-items: center;
