@@ -42,10 +42,6 @@
     grid-template-columns: 1fr;
     gap: 10px;
   }
-  .game-cell:nth-child(even) .about-tip {
-    left: 0;
-    right: auto;
-  }
 }
 .game-cell {
   position: relative;
@@ -63,17 +59,18 @@
 }
 .game-cell-top .about-tip-trigger {
   position: relative;
-  color: #a06739;
+  color: var(--color-primary);
   font-style: italic;
   text-decoration: underline dashed;
-  text-decoration-color: rgba(160, 103, 57, 0.7);
+  text-decoration-color: var(--color-primary);
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
   cursor: help;
 }
-.game-cell-top .about-tip-trigger:hover {
-  color: #c48952;
-  text-decoration-color: #c48952;
+.game-cell-top .about-tip-trigger:hover,
+.game-cell-top .about-tip-trigger.tip-open {
+  color: var(--color-primary-hover);
+  text-decoration-color: var(--color-primary-hover);
 }
 .game-status {
   color: #6e7681;
@@ -84,97 +81,6 @@
   margin: 0.2rem 0 0;
   font-size: 0.85em;
   color: #8b949e;
-}
-.games-grid .about-tip {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 50;
-  width: min(272px, calc(100vw - 16px));
-  padding-top: 6px;
-  pointer-events: auto;
-  background: var(--color-bg-secondary, #161b22);
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-  overflow: hidden;
-  color: #c9d1d9;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 1.35;
-  text-align: left;
-  text-decoration: none;
-  text-transform: none;
-  white-space: normal;
-}
-.game-cell:nth-child(even) .about-tip {
-  left: auto;
-  right: 0;
-}
-.game-cell-top .about-tip-trigger:hover > .about-tip,
-.game-cell-top .about-tip-trigger.tip-open > .about-tip {
-  display: block;
-  color: #c9d1d9;
-  text-decoration: none;
-}
-.games-grid .about-tip-art {
-  display: block;
-  width: 100%;
-  aspect-ratio: 460 / 215;
-  background: #0d1117 center / cover no-repeat;
-}
-.games-grid .about-tip-body {
-  display: block;
-  padding: 8px 10px 10px;
-}
-.games-grid a.about-tip-title {
-  display: inline;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: var(--color-primary);
-  cursor: pointer;
-  text-decoration: none;
-}
-.games-grid a.about-tip-title:hover {
-  color: var(--color-primary-hover);
-  text-decoration: underline;
-}
-.games-grid .about-tip-date {
-  display: inline;
-  margin: 0 0 0 6px;
-  font-size: 0.75em;
-  font-weight: 400;
-  color: #6e7681;
-}
-.games-grid .about-tip-desc {
-  display: block;
-  margin-top: 6px;
-  font-size: 0.8em;
-  color: #8b949e;
-}
-.games-grid .about-tip-note {
-  display: block;
-  margin-top: 8px;
-  font-size: 0.75em;
-  font-style: italic;
-  color: #8b949e;
-}
-.games-grid .about-tip-said {
-  display: flex;
-  align-items: flex-end;
-  gap: 8px;
-  margin: 0 0 6px;
-  font-style: normal;
-  font-weight: 600;
-  color: #6e7681;
-}
-.games-grid .about-tip-said::after {
-  content: "";
-  flex: 1 1 auto;
-  border-bottom: 1px solid #30363d;
-  margin-bottom: 0.2em;
 }
 .pinned-find > summary {
   display: flex;
