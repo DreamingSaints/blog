@@ -26,4 +26,7 @@ jobs:
       # site_title: "My notebook"
       site_tagline: "developing video games for fun"
       # site_company_name: "Your Name"
+      site_url: https://blog.dreamingsaints.com
+      base_path: /
+      custom_domain: blog.dreamingsaints.com
     secrets: inherit
